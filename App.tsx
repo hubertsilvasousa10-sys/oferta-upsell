@@ -116,7 +116,7 @@ const App: React.FC = () => {
               <span className="text-gray-500 line-through text-lg font-medium">De R$ 97,00</span>
               <div className="flex items-center justify-center gap-2 mt-1">
                 <span className="text-gray-300 text-xl font-medium">Por apenas</span>
-                <span className="text-white text-4xl md:text-5xl font-black">R$ 29,99</span>
+                <span className="text-white text-4xl md:text-5xl font-black">R$ 35,99</span>
               </div>
             </div>
 
@@ -134,7 +134,7 @@ const App: React.FC = () => {
                 disabled={loading}
                 className="group relative w-full max-w-md bg-emerald-500 hover:bg-emerald-400 text-gray-950 font-extrabold py-5 px-8 rounded-2xl shadow-[0_10px_40px_-10px_rgba(16,185,129,0.5)] transition-all duration-300 active:scale-95 flex items-center justify-center gap-3 animate-pulse-slow disabled:opacity-50"
               >
-                {loading ? "PROCESSANDO..." : "SIM! QUERO ENTRAR NO DESAFIO POR R$ 29,99"}
+                {loading ? "PROCESSANDO..." : "SIM! QUERO ENTRAR NO DESAFIO POR R$ 35,99"}
                 {!loading && <ChevronRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />}
               </button>
 
